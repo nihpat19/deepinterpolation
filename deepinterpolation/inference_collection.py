@@ -1,8 +1,10 @@
 import h5py
 import numpy as np
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import deepinterpolation.loss_collection as lc
 from tqdm.auto import tqdm
+from keras.layers import TFSMLayer
+
 
 
 class fmri_inference:
