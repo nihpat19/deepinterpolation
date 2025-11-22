@@ -1,4 +1,4 @@
-from tensorflow.keras import backend as K
+from keras import backend as K
 
 
 def dummy_function(x):
