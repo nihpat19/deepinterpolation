@@ -1,4 +1,4 @@
-from tensorflow.keras.layers import (
+from keras.layers import (
     Conv2D,
     Conv3D,
     MaxPooling2D,
@@ -9,7 +9,7 @@ from tensorflow.keras.layers import (
     ZeroPadding2D,
     ZeroPadding3D
 )
-from tensorflow.keras.layers import Concatenate
+from keras.layers import Concatenate
 import numpy as np
 
 
